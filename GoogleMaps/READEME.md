@@ -1,6 +1,6 @@
-# GoogleMapsScraping.py
+# GoogleMapsScrape
 
-GoogleMapsScrape.py gets search results based on the set parameters, the data collected is then organized and stored in a .csv
+GoogleMapsScraping.py gets search results based on the set parameters, the data collected is then organized and stored in a .csv
 
 The code utilizes [SerpApi](https://serpapi.com/), a python package that scapes and parses data.
 
