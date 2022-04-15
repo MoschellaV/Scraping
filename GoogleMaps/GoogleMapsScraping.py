@@ -24,13 +24,13 @@ def ErrorMayRaise(tag):
 
 # Set up the search parameters
 params = {
-    "engine": "google_maps", #E ngine to use
+    "engine": "google_maps", # Engine to use
     "q": "coffee", # Query
     "type": "search", # What action we would like to preform ...search
     "ll": f"@{latitude},{longitude},14z", # The Location (ll = lat,lon)
 }
 
-# Passes the parameters to GoogleSearch and gets recieves a response (data)    
+# Passes the parameters to GoogleSearch, the variable "data" then recieves the response    
 client = GoogleSearch(params)
 data = client.get_dict()
 
