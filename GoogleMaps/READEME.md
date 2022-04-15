@@ -1,4 +1,4 @@
-# GoogleMapsScrape.py
+# GoogleMapsScraping.py
 
 GoogleMapsScrape.py gets search results based on the set parameters, the data collected is then organized and stored in a .csv
 
