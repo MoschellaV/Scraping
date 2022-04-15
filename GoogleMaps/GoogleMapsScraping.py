@@ -34,7 +34,7 @@ params = {
 client = GoogleSearch(params)
 data = client.get_dict()
 
-# Creates a csv file
+# Creates a csv file/Writes over existing csv file
 with open("MapScrape.csv", "w", encoding="utf8", newline="") as f:
     thewriter = writer(f)
     header = ["Position", "Name", "Address", "Phone Number", "Price", "Description", "Rating", "Reviews"]
